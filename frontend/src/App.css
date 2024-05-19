@@ -1,0 +1,14 @@
+ /* Slide transitions */
+ .carousel-item {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  /* Responsive styles */
+  @media (min-width: 640px) {
+    .carousel-item {
+      opacity: 1;
+    }
+  }      
+
+
+
